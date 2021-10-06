@@ -6,3 +6,6 @@ boot_sect.bin: boot_sect.asm
 
 clean: 
 	rm *.bin *.list
+
+init:
+	sudo apt install nasm qemu-system qemu
